@@ -1,1 +1,73 @@
-###initial text
+.TH SHELLA 1 "18 Aug 2021" "1" "Simple Shell man page"                                                                                 
+
+.SH NAME                                                                                                                              
+
+.B shella                                                                                                                                
+
+- A simple UNIX command interpreter.                                                                                                  
+
+.SH SYNOPSIS                                                                                                                          
+
+.B ./shella                                                                                                                              
+
+.SH DESCRIPTION                                                                                                                       
+
+This program is a simple shell. Contains simple features made with holberton guidelines.                                              
+
+.SS Overview                                                                                                                          
+
+A software that takes input from the promp, interprets them, and run anoother command. It executes compiling all .c files in the repos
+
+itory.                                                                                                                                
+
+.SS Path Search                                                                                                                       
+
+ This shell first search for an executable by the given name in the PATH of env. Then, search for builtin commands using the same name
+
+.                                                                                                                                     
+
+                                                                                                                                      
+
+.SH MODES                                                                                                                             
+
+.B shella                                                                                                                                
+
+Interactive mode                                                                                                                      
+
+.SS                                                                                                                                   
+
+EXAMPLE:                                                                                                                              
+
+$ ls -l                                                                                                                               
+
+.B ./shella                                                                                                                              
+
+Non-interactive mode                                                                                                                  
+
+.SS                                                                                                                                   
+
+EXAMPLE:                                                                                                                              
+
+$ echo "ls -l" | ./shella                                                                                                                
+
+                                                                                                                                      
+
+.SH BUILT-IN COMMANDS                                                                                                                 
+
+.B env                                                                                                                                
+
+- prints environment                                                                                                                  
+
+.B exit                                                                                                                               
+
+- exits the shell                                                                                                                     
+
+                                                                                                                                      
+
+.SH BUGS                                                                                                                              
+
+No known bugs.
+
+.SH AUTHOR                                                                                                                            
+
+Davis Okioma
